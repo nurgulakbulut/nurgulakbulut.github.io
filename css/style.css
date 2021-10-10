@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    margin: 0 auto;
+    font-family: ubuntu,sans-serif;
+    line-height: 1.5;
+    padding:1em;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+#header{
+    height: 100vh;
+}
+.navbar{
+    position: relative;
+    padding-bottom: .5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px 0 #f44336;
+    padding-top: .5625rem;
+}
+
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-item .nav-link:hover {
+    color: #222944 !important;
+    transition: ease 0.5s;
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    -moz-transition: ease 0.5s;
+}
+
+.fab:hover {
+    color: #222944 !important;
+    transition: ease 0.3s;
+}
+
+#about {
+   
+   background: url("../img/about.png") no-repeat center center cover fixed;
+}
+
+#profilPicture
+{
+       width: 25rem;
+       height: 25rem;
+       border-radius: 50%;
+       box-shadow: 0 0 50px #ccc;
+}
+
