@@ -121,11 +121,10 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
 #abilities{
-       background-color: rgb(156, 156, 160);
+       background-color: rgb(176, 176, 182);
        background-size: cover;
        -webkit-background-size: cover;
        -o-background-size: cover;
        -moz-background-size: cover;
-       
 }
 
